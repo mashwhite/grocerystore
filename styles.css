@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	color: black;
+}
+
+#container {
+	margin: 8px;
+	display: flex;
+}
+
+#left {
+	width: 50%;
+	background-color: #18FFFF;
+	min-height: 50px;
+	flex: 1;
+	text-align: center;
+}
+
+#right {
+	width: 50%;
+	background-color: #9FA8DA;
+	min-height: 50px;
+	flex: 2;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Arsenal', sans-serif;
+	margin-bottom: 10px;
+
+}
+
+button {
+	background-color: #18FFFF;
+	border: none;
+	margin-bottom: 8px; 
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: 'Rufina', sans-serif;
+	font-size: 20px;
+}
+
+img{
+	width: 50%;
+}
